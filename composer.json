@@ -1,0 +1,32 @@
+{
+  "name": "gulaandrij/shipstation-bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "description": "",
+  "autoload": {
+    "psr-4": {
+      "ShipstationBundle\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "gylaandrij",
+      "email": "gyla.andrij@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "symfony/framework-bundle": "^4.0",
+    "zack6849/ship-station": "^1.2"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+        "master": "dev-master"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+services:
+  ShipstationBundle\Service\ShipstationClient:
+    autowire: true
+    autoconfigure: true
+    arguments: ['@?', '@?']
