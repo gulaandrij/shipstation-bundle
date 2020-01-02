@@ -23,10 +23,5 @@
     "optimize-autoloader": true
   },
   "minimum-stability": "stable",
-  "prefer-stable": true,
-  "extra": {
-    "branch-alias": {
-        "master": "dev-master"
-    }
-  }
+  "prefer-stable": true
 }
