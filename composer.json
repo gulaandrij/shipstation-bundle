@@ -17,7 +17,7 @@
   "require": {
     "php": "^7.2",
     "symfony/framework-bundle": "^4.0",
-    "zack6849/ship-station": "^1.2"
+    "zack6849/ship-station": "dev-master"
   },
   "config": {
     "optimize-autoloader": true

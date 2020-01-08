@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0873aaa2d2e6b5b7151627d8b6ed6f69",
+    "content-hash": "622f31635ba5b3a9c2ac8b57bfea5c47",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -1941,16 +1941,16 @@
         },
         {
             "name": "zack6849/ship-station",
-            "version": "v1.2.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zack6849/ship-station.git",
-                "reference": "e2a6d544595a65a1e0f7f5d08f96853b6908637d"
+                "reference": "3123f9da9d56eb0ccf3cdc3bed4f4fd53ce08146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zack6849/ship-station/zipball/e2a6d544595a65a1e0f7f5d08f96853b6908637d",
-                "reference": "e2a6d544595a65a1e0f7f5d08f96853b6908637d",
+                "url": "https://api.github.com/repos/zack6849/ship-station/zipball/3123f9da9d56eb0ccf3cdc3bed4f4fd53ce08146",
+                "reference": "3123f9da9d56eb0ccf3cdc3bed4f4fd53ce08146",
                 "shasum": ""
             },
             "require": {
@@ -1971,16 +1971,16 @@
             ],
             "authors": [
                 {
-                    "name": "Michael Bonds",
-                    "email": "mbonds1219@gmail.com",
-                    "homepage": "http://michaelbonds.com",
-                    "role": "author"
-                },
-                {
                     "name": "Zachary Craig",
                     "email": "zack@zack6849.com",
                     "homepage": "https://zack6849.com",
                     "role": "maintainer"
+                },
+                {
+                    "name": "Michael Bonds",
+                    "email": "mbonds1219@gmail.com",
+                    "homepage": "http://michaelbonds.com",
+                    "role": "author"
                 }
             ],
             "description": "An updated and maintained PHP Wrapper for ShipStation's rest api, forked from michaelb/ship-station, docs @ https://shipstation.docs.apiary.io/",
@@ -1993,13 +1993,15 @@
                 "shipstation",
                 "wrapper"
             ],
-            "time": "2019-01-25T20:57:40+00:00"
+            "time": "2020-01-08T17:20:21+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "zack6849/ship-station": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
